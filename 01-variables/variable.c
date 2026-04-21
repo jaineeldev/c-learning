@@ -6,6 +6,8 @@ int main() {
     // variable = a reusable container for storing data values
     // it behaves as if it were the value that it contains
 
+    // int = whole numbers94bytes in modern systems)
+
     // int age = 22; 
     // int year = 2026;
     // int quantity = 1;
@@ -14,6 +16,9 @@ int main() {
     // printf("The year is %d\n", year);
     // printf("You have ordered %d x Ramen\n", quantity);
     //------------------------------------------------------
+
+    // float = single precision decimal number (4 bytes)
+
     // float gpa =   2.5;
     // float price = 5.99;
     // float temperature = 25.7;
@@ -21,6 +26,9 @@ int main() {
     // printf("Your GPA is %f\n", gpa);
     // printf("The price is $%f\n", price);
     // printf("The temperature is %f\n", temperature);
+    //------------------------------------------------
+
+    // double  = double precision decimal number (8 bytes) 
 
     // double pi = 3.141592653589;
     // double e = 2.7182818284590;
@@ -28,6 +36,9 @@ int main() {
     // printf("The value of pi is %.15lf\n", pi);
     // printf("The value of e is %.15lf\n", e);
     //---------------------------------------------
+
+    // char = single character (1 byte)
+
     // char grade = 'A';
     // char symbol = '!';
     // char currency = '$';
@@ -35,6 +46,9 @@ int main() {
     // printf("your grade is %c\n", grade);
     // printf("your favourite symbol is %c\n", symbol);
     // printf("The currency is %c", currency);
+    //-------------------------------------------------
+
+    //char[] = array of characters (size varies)
 
     // char name[] = "Jaineel Khatri";
     // char food[] = "Ramen";
@@ -44,18 +58,20 @@ int main() {
     // printf("Your favourite food is %s\n", food);
     // printf("Your email is %s\n", email);
     //---------------------------------------------
-    bool isOnline = true;
-    bool isStudent = false;
-    bool forSale = false;
+
+    // bool = true or false (1 byte, requires <stdbool.h>)
+
+    // bool isOnline = true;
+    // bool isStudent = false;
+    // bool forSale = false;
 
     // printf("%d", isOnline);
-    if(forSale){
-        printf("That item is for sale");
-    }
-    else{
-        printf("Item is NOT for sale");
-    }
-
+    // if(forSale){
+    //     printf("That item is for sale");
+    // }
+    // else{
+    //     printf("Item is NOT for sale");
+    // }
 
     return 0;
 }
