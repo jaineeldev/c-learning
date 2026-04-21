@@ -2,7 +2,6 @@
 
 Working through **[C Programming Full Course for free](https://www.youtube.com/watch?v=xND0t1pr3KY)** by [Bro Code](https://www.youtube.com/@BroCodez) — a ~6 hour course covering C from the ground up.
 
----
 
 ## 🎯 Why I'm learning C
 
@@ -11,8 +10,6 @@ This isn't just a course for the sake of it — I'm learning C with a future pro
 The plan is to write the system stats module as a **native Node addon in C** — reading CPU and RAM at a low level and passing the data up to the app. The buddy would then react to your system in real time: stressed when your CPU spikes, chill when everything's fine.
 
 > 🚧 Work in progress — folders are added as I work through the course, so not everything listed here will exist in the repo yet.
-
----
 
 ## 📁 Project Structure
 
@@ -69,15 +66,11 @@ c-learning/
 
 > ⭐ = full project build from the course
 
----
-
 ## 🛠️ Tools
 
 - **Compiler:** GCC via MSYS2
 - **Editor:** VSCode
 - **OS:** Windows
-
----
 
 ## 📚 Course Topics
 
