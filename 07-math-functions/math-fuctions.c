@@ -12,8 +12,9 @@ int main()
     // x =  floor(x); Always roll down
     // x = abs(x); Absolute number
     // x = log(x); Log of the number
-    x = sin(x); //sine of the number
-
+    // x = sin(x); //sine of the number
+    // x = cos(x); // cosine of the number
+    // x = tan(x); //tangent of number
 
     printf("%f", x);
 

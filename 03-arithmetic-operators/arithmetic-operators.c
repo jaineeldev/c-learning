@@ -4,9 +4,9 @@ int main() {
 
     // arithmetic operators = + - * / % ++ --
     // If divisiing by an int, wont retain the decimal numbers
-    int x = 10;
-    int y = 2;
-    int z = 0;
+    // int x = 10;
+    // int y = 2;
+    // int z = 0;
 
     // + 
     // z = x + y;
@@ -30,9 +30,23 @@ int main() {
 
     // -- (Decirment)
 
-    x--;
+    // x--;  // Takes 1 (Minus 1)
 
-    printf("%d",x);
+    // x = x +2; //To change x to a different number(just an exmaple)
+    // x+=2; //(short hand version_)
+    // x = x- 3;
+    // x-=3;
+    // x = x*2;
+    // x*=2;
+    // x = x / 2;
+    // x/=2; 
+
+    // augmented assignment operators
+    // x+=2; 
+    // x-=3;
+    // x*=2;
+    // x/=2; 
+    // printf("%d",x);
 
     return 0;
 }
